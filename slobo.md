@@ -32,4 +32,4 @@ The role of T-type (low-voltage-activated, LVA) calcium channels in the molecula
 >
 >Our research is funded by NIH research grants from NINDS and NIGMS.
 
-[slobo-pic]: http://localhost:4000/images/slobo.jpg
+[slobo-pic]: https://todoroviclab.github.io/images/slobo.jpg

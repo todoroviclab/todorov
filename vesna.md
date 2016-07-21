@@ -33,4 +33,4 @@ Mechanisms by which anesthetic drugs interact with neurotransmitter systems in t
 >
 >Another important aspect of my research is focused on pathophysiology and pharmacology of the neuropathic pain using whole animal models and variety of neurobehavioral tests. This research is federally funded by NINDS/NIH.
 
-[vesna-pic]: http://localhost:4000/images/vesna.jpg
+[vesna-pic]: https://todoroviclab.github.io/images/vesna.jpg
