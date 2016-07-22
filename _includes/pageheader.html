@@ -1,0 +1,36 @@
+<header class="site-header" data-bg-image="">
+    <div class="container">
+        <div class="header-bar">
+            <a href="/" class="branding">
+                <img src="/assets/images/logo_lab.png" alt="" class="logo">
+                <div class="logo-type">
+                    <h1 class="site-title">{{ site.title }}</h1>
+                    <small class="site-description">Neuroscience reasearch</small>
+                </div>
+            </a>
+
+            <nav class="main-navigation">
+                <button class="menu-toggle"><i class="fa fa-bars"></i></button>
+                <ul class="menu">
+                    <li class="home menu-item"><a href="/"><img src="/assets/images/home-icon.png" alt="Home"></a></li>
+                    {% for my_page in site.pages %}
+                        {% if my_page.link %}
+                            <li class="menu-item">
+                                <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.link }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+
+            <div class="mobile-navigation"></div>
+        </div>
+    </div>
+</header>
+
+<div class="page-head" data-bg-image="{{ site.baseurl }}/assets/images/page-head-1.jpg">
+    <div class="container">
+        <h2 class="page-title">{{ page.title }}</h2>
+        <small>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit consequuntur magni </small>
+    </div>
+</div>

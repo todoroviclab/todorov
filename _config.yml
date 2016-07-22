@@ -17,3 +17,6 @@ github_username:  todoroviclab
 
 # Build settings
 markdown: kramdown
+
+sass:
+    sass_dir: assets/sass

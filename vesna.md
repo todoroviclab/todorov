@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Vesna
+link: Vesna
+title: Dr. Vesna Jevtovic-Todorovic
 permalink: /vesna/
 ---
 
 ## Dr. Vesna Jevtovic-Todorovic
 
-![Dr. Vesna Jevtovic-Todorovic][vesna-pic]{: .right }
+![Dr. Vesna Jevtovic-Todorovic][vesna-pic]{: .pull-right }
 
 ### Professor and Chair, Anesthesiology
 
@@ -33,4 +34,4 @@ Mechanisms by which anesthetic drugs interact with neurotransmitter systems in t
 >
 >Another important aspect of my research is focused on pathophysiology and pharmacology of the neuropathic pain using whole animal models and variety of neurobehavioral tests. This research is federally funded by NINDS/NIH.
 
-[vesna-pic]: https://todoroviclab.github.io/images/vesna.jpg
+[vesna-pic]: {{ site.baseurl }}/assets/images/vesna.jpg
