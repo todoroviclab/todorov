@@ -16,5 +16,15 @@
 	// importing layout styles
 	"layout/header",
 	"layout/content",
-	"layout/footer"
+	"layout/footer",
+
+	// importing font-awesome styles
+	"font-awesome/font-awesome"
 ;	
+
+$primary-color: #69acc7;
+
+.lab_icon{
+	font-size: 60px;
+	color: $primary-color;
+}
