@@ -12,8 +12,10 @@ description: > # this means to ignore newlines until "baseurl:"
   Todorovic Neuroscience Lab.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://todoroviclab.github.io" # the base hostname & protocol for your site
-twitter_username: todoroviclab
-github_username:  todoroviclab
+collections:
+  research:
+    output: true
+    permalink: /research/:path/
 
 # Build settings
 markdown: kramdown
